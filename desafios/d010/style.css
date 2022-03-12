@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+
+body {
+    background-color: #46E3A5;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+header {
+    background-image: linear-gradient(to top, #1a5c38, #36c476); 
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+nav {
+    background-color: #015E39;
+}
+
+.extra > header {
+    background-color: #1a5c38;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: small;
+}
+
+nav > a {
+    text-align: left;  
+    text-decoration: none; 
+    color: white;
+    margin: 10px;
+}
+
+.main {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.336);
+    
+}
+
+img {
+    width: 100%;
+}
+
+.extra {
+    background-color: #addbc1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.336);
+    
+}
+
+h1 {
+    font-family: 'idroid';
+    font-size: 25px;
+    color: #155934;
+}
+
+h2 {
+    font-family: 'idroid';
+    font-size: 20px;
+    font-weight: bold;
+    color: #155934;
+    background-image: linear-gradient(to right, #84e1ad, white);
+}
+
+p {
+    text-indent: 2em;
+}
+
+footer {
+    background-color: #155934;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    font-family: monospace;
+    padding: 3px;
+}
+
+div.columns {
+    column-width: 300px;
+    -moz-column-width: 300px;
+    -webkit-column-width: 300px;
+ }
+ div.keeptogether {
+    display: inline-block;
+    width: 100%;
+ }
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   }
+   
