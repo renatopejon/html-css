@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites, e agora vou gerenciar meus repositórios.
 
- <a href="https://renatopejon.github.io/html-css/desafios/d010/index2.html">Abrir o Desafio 10</a>
+ <a href="https://renatopejon.github.io/projeto-android/index.html">Abrir o Desafio 10</a>
