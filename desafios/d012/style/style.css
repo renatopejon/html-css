@@ -1,2 +1,12 @@
 @charset "UTF-8";
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 1em;
+    text-align: center;
+}
